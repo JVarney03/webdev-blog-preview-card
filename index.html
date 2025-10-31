@@ -1,26 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
-  <link rel="stylesheet" href="src/style.css">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  
-</body>
+    <title>Frontend Mentor | Blog preview card</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <main class="h-screen w-screen content-center bg-yellow-500">
+      <div
+        class="mx-auto flex w-4/5 flex-col rounded-2xl bg-white p-5 shadow-[10px_10px_0_black] ring-2 sm:max-w-sm"
+      >
+        <img
+          class="mb-5 rounded-xl"
+          src="./assets/images/illustration-article.svg"
+          alt=""
+        />
+        <div class="mb-4 w-20 rounded-sm bg-yellow-500 p-1">
+          <h2 class="text-center text-sm font-bold">Learning</h2>
+        </div>
+        <h3 class="mb-3">Published 21 Dec 2023</h3>
+        <a class="hover:text-yellow-500 focus:text-yellow-500" href="#">
+          <h1 class="mb-4 text-2xl font-bold">HTML & CSS foundations</h1>
+        </a>
+        <p class="text-md mb-5">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="flex items-center">
+          <img
+            class="mr-2 w-8"
+            src="./assets/images/image-avatar.webp"
+            alt=""
+          />
+          <h3 class="text-sm font-bold">Greg Hooper</h3>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
