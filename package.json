@@ -7,8 +7,7 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-
-  "homepage": "https://github.com/JVarney03/webdev-qr-component",
+  "homepage": "https://github.com/JVarney03/webdev-blog-preview-card",
   "prettier": {
     "plugins": [
       "prettier-plugin-tailwindcss"

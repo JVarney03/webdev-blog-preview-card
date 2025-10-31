@@ -3,5 +3,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss()],
-  base: "/webdev-qr-component/",
+  base: "/webdev-blog-preview-card/",
 });
